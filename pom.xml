@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>tech.morihara</groupId>
+  <artifactId>spring-native-template</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>spring-native-template</name>
+
+  <modules>
+    <module>spring-native-template-lib</module>
+    <module>spring-native-template-dto</module>
+    <module>spring-native-template-dao</module>
+    <module>spring-native-template-biz</module>
+    <module>spring-native-template-function</module>
+  </modules>
+
+  <properties>
+    <additionalparam>-Xdoclint:none</additionalparam>
+  </properties>
+  
+</project>
