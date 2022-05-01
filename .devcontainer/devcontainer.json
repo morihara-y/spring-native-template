@@ -1,0 +1,16 @@
+{
+  // change the name for your project
+  "name": "spring-native-template",
+  "dockerComposeFile": "docker-componse.yml",
+  "service": "worksapce",
+  // change the name for your project
+  "workspaceFolder": "/spring-native-template",
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "gabrielbb.vscode-lombok"
+  ],
+  "settings": {
+    "java.import.generatesMetadataFilesAtProjectRoot": true,
+    "editor.tabSize": 4
+  }
+}

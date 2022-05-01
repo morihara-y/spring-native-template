@@ -1,0 +1,12 @@
+version: "3.6"
+services:
+  workspace:
+    # change the name for your project
+    container_name: spring-native-template
+    build: workspace
+    # change the name for your project
+    volumes:
+      - ../:/spring-native-template
+      - $HOME/.aws/:/root/.aws/
+    stdin_open: true
+    tty: true
